@@ -1,0 +1,83 @@
+body {
+	background: url('DipendraTimlasina_2330996.jpg') center center fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+	
+	.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	}
+	
+	h1 {
+	text-align: center;
+	}
+	
+	.location {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	}
+	
+	label {
+	margin-right: 10px;
+	}
+	
+	input[type="text"] {
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 200px;
+	}
+	
+	button {
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+	
+	.weather-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+	
+	.temperature {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	}
+	
+	.temperature img {
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	}
+	
+	.conditions {
+	margin-bottom: 20px;
+	}
+	
+	.humidity,
+	.wind-speed {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	}
+	
+	.humidity span,
+	.wind-speed span {
+	margin-right: 10px;
+	}

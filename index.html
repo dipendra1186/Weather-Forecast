@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="third.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <h1>Weather Data</h1>
+  <div class="container">
+    <h1>Weather Forecast</h1>
+    <div class="date-time">
+      <span id="date"></span>
+      <span id="time"></span>
+    </div>
+    <div class="location">
+      <form action="process.php" method="GET">
+        <label for="city">Enter a city name:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="weather-info">
+      <div class="temperature">
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <span id="temp"></span>
+        <span>&deg;F</span>
+      </div>
+      <div class="conditions">
+        <span id="conditions"></span>
+      </div>
+      <div class="humidity">
+        <span>Humidity:</span>
+        <span id="humidity"></span>
+      </div>
+      <div class="wind-speed">
+        <span>Wind Speed:</span>
+        <span id="wind-speed"></span>
+      </div>
+    </div>
+  </div>
+  <script src="ex.js"></script>
+</body>
+</html>
